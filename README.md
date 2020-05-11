@@ -6,5 +6,6 @@ dev release
 test01
 local test01
 dhaudhfdai
+remote test01
 dev
 

@@ -1,4 +1,5 @@
 from selenium import webdriver
+import time
 
 
 website = webdriver.Chrome()
@@ -14,3 +15,7 @@ sub.click()
 
 
 
+time.sleep(3)
+website.close()
+time.sleep(1)
+website.quit()

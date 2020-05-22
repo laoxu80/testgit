@@ -10,4 +10,23 @@
     <br>
     <label>密码：</label>
     <textarea>    </textarea>
+    <script>
+    document.write("<h2>这是一个标签</h2>")
+    document.write("<p>参数怎么设置</p>")
+    </script>
+    <script>
+        function changeImage()
+        {
+            element=document.getElementById('myimage')
+            if (element.src.match("bulbon"))
+            {
+                element.src="../html/images/off.jpg";
+            }
+            else
+            {
+                element.src="../html/images/on.jpg";
+            }
+        }
+        </script>
+        <img id="myimage" onclick="changeImage()" src="../html/images/off.jpg" width="150" height="180">
 </h2>

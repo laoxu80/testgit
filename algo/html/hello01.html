@@ -6,27 +6,44 @@
     <label>
         用户：
     </label>
-    <textarea>           </textarea>
+    <input id="user" type="text">
+    <script>
+        function myFunction()
+        {
+            var x=document.getElementById("user").value;
+            if(x==""||isNaN(x))
+            {
+                alert("不是数字");
+            }
+        }
+    </script>
+    <button type="button" onclick="myFunction()">点击这里</button>
+
     <br>
     <label>密码：</label>
     <textarea>    </textarea>
     <script>
-    document.write("<h2>这是一个标签</h2>")
-    document.write("<p>参数怎么设置</p>")
+        alert("hello world")
+    </script>
+    <script>
+        document.write("<h2>这是一个标签</h2>")
+        document.write("<p>参数怎么设置</p>")
     </script>
     <script>
         function changeImage()
         {
             element=document.getElementById('myimage')
-            if (element.src.match("bulbon"))
-            {
-                element.src="../html/images/off.jpg";
-            }
-            else
+            if (element.src.match("off"))
             {
                 element.src="../html/images/on.jpg";
             }
+            else
+            {
+                element.src="../html/images/off.jpg";
+            }
+            
         }
-        </script>
-        <img id="myimage" onclick="changeImage()" src="../html/images/off.jpg" width="150" height="180">
+    </script>
+    <img id="myimage" onclick="changeImage()" src="../html/images/off.jpg" width="150" height="180">
+
 </h2>

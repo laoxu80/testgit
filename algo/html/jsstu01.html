@@ -5,12 +5,14 @@
 </head>
 <body>
 <h1>我的 Web 页面</h1>
-<p id="demo">一个段落</p>
+<p id="demo">用户名</p>
+<textarea id="user""></textarea>
 <button type="button" onclick="myFunction('demo')">尝试一下</button>
+
 <script src="../html/js/myscript.js"> </script>
-<script>
-document.getElementById("demo").innerHTML = "段落已修改。";
-document.write(Date())
-</script>
+<p id="demo2">密码</p>
+<textarea id="pwd"></textarea>
+<input type="button" id="login" onclick="login('user','pwd')" value="10">
+<!--<button id="login" onclick="login('user','pwd')" value="登录"></button>-->
 </body>
 </html>

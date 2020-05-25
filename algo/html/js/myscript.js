@@ -8,12 +8,12 @@ function login(a,b)
     var num_a,num_b
     num_a=Number(document.getElementById(a).value)
     num_b=Number(document.getElementById(b).value)
-    if(Number(document.getElementById("login").value)==num_a+num_b)
+    if(Number(document.getElementById("preresulte").value)==num_a+num_b)
     {
-        alert("right")
+        document.getElementById('login').value="="
     }
     else{
-        alert("wrong")
+        document.getElementById('login').value="!="
     }
 
     //console.log(document.getElementById(a).value)

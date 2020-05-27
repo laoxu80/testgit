@@ -32,7 +32,7 @@ time.sleep(2)
 
 pub_ele = website.find_element_by_xpath("//a[@class='menu_son_act']")
 print(pub_ele)
-"""
+
 # 委托单管理
 website.find_element_by_xpath("//li[@class='ng-scope menuL']/a[@class='inactive']/p[contains(text(),'委托单管理')]").click()
 time.sleep(1)
@@ -41,8 +41,51 @@ time.sleep(20)
 
 # 新增委托单
 #neworder_ele =WebDriverWait(website,10,1).until(EC.presence_of_element_located((By.XPATH,"//button[text()='新增委托单']")))
-website.find_element_by_xpath("//div[@class='fl clearfix mt8 pl10']/button[text()='新增委托单']").click()
+website.find_element_by_xpath("//*[text()='新增委托单']").click()
 #neworder_ele.click()
+
+"""
+# 点击logo回到首页
+website.find_element_by_xpath("//div[@class='header_logo']").click()
+website.execute_script('window.scrollBy(0,500)')
+time.sleep(2)
+# 获取统计值
+count_driver = website.find_element_by_xpath("//span[@ng-bind='searchModel.driverCount']")
+
+count_vehicle = website.find_element_by_xpath("//span[@ng-bind='searchModel.vehicleCount']")
+
+count_user = website.find_element_by_xpath("//span[@ng-bind='searchModel.orgCount']")
+
+count_publish =website.find_element_by_xpath("//span[@ng-bind='searchModel.goodsSourceCount']")
+
+count_trans = website.find_element_by_xpath("//span[@ng-bind='searchModel.weightCount']")
+
+
+print("司机数：{}，车辆数：{},累计用户数：{}，发布货源数：{}，"
+      "年承运吨数：{}".format(count_driver.text, count_vehicle.text,
+                        count_user.text, count_publish.text, count_trans.text))
+
+
+# 点击进入货源市场
+pub_ele= WebDriverWait(website,5,1).until(EC.presence_of_element_located((By.LINK_TEXT,"货源市场")))
+pub_ele.click()
+time.sleep(1)
+#website.find_element_by_link_text("货源市场").click()
+# 获取统计值
+total_pubnumber = website.find_element_by_xpath("//span[@ng-bind='totalModuel']")
+total_pubweight = website.find_element_by_xpath("//span[@ng-bind='weightModuel']")
+today_number = website.find_element_by_xpath("//span[@ng-bind='messeagModuel']")
+today_weight = website.find_element_by_xpath("//span[@ng-bind='todayWeightModuel']")
+print("累计货源条数：{}，累计货源吨数：{}，今日新增条数：{}，今日新增吨数：{}".format(total_pubnumber.text,
+                                                       total_pubweight.text,today_number.text,today_weight.text))
+# 发布货源
+website.find_element_by_xpath("//a[@class='t-btn']").click()
+#new_pub_ele.click()
+
+
+
+
+
 
 
 

@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_ex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -185,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +362,8 @@
       <workItem from="1590233418531" duration="311000" />
       <workItem from="1590312376085" duration="615000" />
       <workItem from="1590385863090" duration="3730000" />
-      <workItem from="1590462659669" duration="15787000" />
+      <workItem from="1590462659669" duration="16771000" />
+      <workItem from="1590558777779" duration="7279000" />
     </task>
     <task id="LOCAL-00001" summary="20200513&#10;add quit">
       <created>1589356742974</created>
@@ -441,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590408783963</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="20200526&#10;增加委托单管理操作">
+      <created>1590497766242</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590497766242</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -477,7 +485,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201670000" />
+    <option name="totallyTimeSpent" value="209933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,8 +498,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,7 +514,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35552195" side_tool="true" weight="0.30983606" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32786885" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49924356" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" x="21" y="237" width="1322" height="286" id="Run" order="11" sideWeight="0.6444781" visible="true" weight="0.41311476" />
+      <window_info active="true" anchor="bottom" x="21" y="237" width="1322" height="286" id="Run" order="11" sideWeight="0.6444781" visible="true" weight="0.34918034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -564,7 +573,8 @@
     <MESSAGE value="20200521&#10;目录调整" />
     <MESSAGE value="20200522list&#10;目录调整" />
     <MESSAGE value="20200525&#10;webui练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200525&#10;webui练习" />
+    <MESSAGE value="20200526&#10;增加委托单管理操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200526&#10;增加委托单管理操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,7 +605,7 @@
     <SUITE FILE_PATH="coverage/untitled1$ex01.coverage" NAME="ex01 Coverage Results" MODIFIED="1585647016695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algo$ex18.coverage" NAME="ex18 Coverage Results" MODIFIED="1589535547236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ex" />
     <SUITE FILE_PATH="coverage/untitled1$ex10.coverage" NAME="ex10 Coverage Results" MODIFIED="1584928351947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algo$web_ex.coverage" NAME="web_ex Coverage Results" MODIFIED="1590497660508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algo$web_ex.coverage" NAME="web_ex Coverage Results" MODIFIED="1590567137378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$sort__1_.coverage" NAME="sort (1) Coverage Results" MODIFIED="1589261713912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$handle_mysql.coverage" NAME="handle_mysql Coverage Results" MODIFIED="1587883940999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$ex00.coverage" NAME="ex00 Coverage Results" MODIFIED="1588860815804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -728,6 +738,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/python3/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_ex00.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -786,23 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

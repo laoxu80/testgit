@@ -78,9 +78,42 @@ today_number = website.find_element_by_xpath("//span[@ng-bind='messeagModuel']")
 today_weight = website.find_element_by_xpath("//span[@ng-bind='todayWeightModuel']")
 print("累计货源条数：{}，累计货源吨数：{}，今日新增条数：{}，今日新增吨数：{}".format(total_pubnumber.text,
                                                        total_pubweight.text,today_number.text,today_weight.text))
-# 发布货源
+
 website.find_element_by_xpath("//a[@class='t-btn']").click()
-#new_pub_ele.click()
+time.sleep(15)
+# 切换到iframe1_发布货源
+website.switch_to.frame("iframe1")
+# 货物名称
+#goods_name = WebDriverWait(website,5,1).until(EC.presence_of_element_located((By.ID,"searchModel.goodsName")))
+goods_name = website.find_element_by_xpath("//input[@id='searchModel.goodsName']")
+
+goods_name.send_keys("原油")
+goods_name.click()
+
+
+# 计价单位
+goods_unit = website.find_element_by_id("searchModel.settlementMethod")
+# 提货时间
+take_time_start = website.find_element_by_id("searchModel.startTime")
+
+take_time_start.send_keys("2020-01-01 00:00:00")
+#take_time_start.click()
+take_time_end = website.find_element_by_id("searchModel.endTime")
+
+take_time_end.send_keys("2020-01-02 00:00:00")
+#take_time_end.click()
+#website.find_element_by_xpath("//div[@class='form-date-bar']/a[text()='确定']").click()
+
+# 提货地址选择
+take_add_ele = website.find_element_by_xpath("//span[@ng-click='addAddress1()']")
+take_add_ele.click()
+
+#website.switch_to.frame("/html/waybill/modifyAddress?__showUrl=true")
+
+
+
+
+
 
 
 

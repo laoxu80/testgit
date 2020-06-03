@@ -23,7 +23,7 @@ for i in range(len(strb)):
     else:
         dict_b[y] = dict_b[y]+1
 print(dict_b)
-'''
+
 print(sum(range(1,10,2)))
 #1+3+5+7+9=25
 
@@ -52,7 +52,16 @@ bubbleSort2(arr)
 
 print("排序后的数组:")
 for i in range(len(arr)):
-    print("%d" % arr[i]),
+    print("%d" % arr[i])
+'''
+
+
+nums_a = [2, 7, 11, 15]
+dict_a = list(enumerate(nums_a))
+print(dict_a)
+
+
+
 
 
 

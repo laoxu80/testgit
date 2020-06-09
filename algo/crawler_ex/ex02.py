@@ -1,5 +1,5 @@
 from selenium import webdriver
-import pandas
+import pandas as pd
 
 
 
@@ -46,6 +46,8 @@ class DataCatch:
         return list_job
 
     def save_data(self,joblist):
+        dt=pd.DataFrame(joblist)
+        dt.to_excel("panda_data.xlsx",sheet_name="Sheet1")
         return None
 
 
@@ -58,6 +60,7 @@ if __name__=="__main__":
     print(lagou_detail)
     joblist =data.job_detail(lagou_detail)
     print(joblist)
+    data.save_data(joblist)
 
 
 

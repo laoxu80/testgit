@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d304f7d-18c4-4974-9243-10d0ea079a52" name="Default Changelist" comment="20200604-爬取网站链接地址">
-      <change afterPath="$PROJECT_DIR$/crawler_ex/ex03.py" afterDir="false" />
+    <list default="true" id="3d304f7d-18c4-4974-9243-10d0ea079a52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crawler_ex/panda_data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler_ex/ex02.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_ex/ex02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/ex14.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex/ex14.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler_ex/ex02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="129">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <element signature="e#85#762#0" />
@@ -455,7 +454,7 @@
       <workItem from="1591453029308" duration="265000" />
       <workItem from="1591454418875" duration="1060000" />
       <workItem from="1591455817986" duration="36000" />
-      <workItem from="1591673514220" duration="7736000" />
+      <workItem from="1591673514220" duration="10187000" />
     </task>
     <task id="LOCAL-00001" summary="20200513&#10;add quit">
       <created>1589356742974</created>
@@ -576,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591265900435</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="20200609-获取明细内容">
+      <created>1591695544471</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591695544471</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -612,7 +618,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259165000" />
+    <option name="totallyTimeSpent" value="261616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,9 +631,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -641,7 +646,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35552195" side_tool="true" weight="0.30983606" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32786885" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49924356" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" x="21" y="237" width="1322" height="286" id="Run" order="11" sideWeight="0.6444781" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" x="21" y="237" width="1322" height="286" id="Run" order="11" sideWeight="0.6444781" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -706,7 +711,8 @@
     <MESSAGE value="20200530-locust学习" />
     <MESSAGE value="20200603-leetcode整数反转" />
     <MESSAGE value="20200604-爬取网站链接地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200604-爬取网站链接地址" />
+    <MESSAGE value="20200609-获取明细内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200609-获取明细内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,7 +756,7 @@
     <SUITE FILE_PATH="coverage/algo$pytest_for_test_unit00_MyclassTest_test_add_right.coverage" NAME="pytest for test_unit00.MyclassTest.test_add_right Coverage Results" MODIFIED="1589376801952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testunit" />
     <SUITE FILE_PATH="coverage/algo$ex03.coverage" NAME="ex03 Coverage Results" MODIFIED="1591679334138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler_ex" />
     <SUITE FILE_PATH="coverage/untitled1$ex12.coverage" NAME="ex12 Coverage Results" MODIFIED="1584947586301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algo$ex02.coverage" NAME="ex02 Coverage Results" MODIFIED="1591679399803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler_ex" />
+    <SUITE FILE_PATH="coverage/algo$ex02.coverage" NAME="ex02 Coverage Results" MODIFIED="1591697096936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler_ex" />
     <SUITE FILE_PATH="coverage/untitled1$ex02.coverage" NAME="ex02 Coverage Results" MODIFIED="1583741242795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$pytest_in_test_ex00_py.coverage" NAME="pytest in test_ex00.py Coverage Results" MODIFIED="1586942188118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$ex05.coverage" NAME="ex05 Coverage Results" MODIFIED="1586316381157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -1004,8 +1010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler_ex/ex02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="129">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <element signature="e#85#762#0" />

@@ -1,12 +1,14 @@
 from selenium import webdriver
 import pandas as pd
 
-
-
 class DataCatch:
     def job_url(self,url):
+        """
+        从网站获取岗位明细页链接地址的列表
+        :param url:
+        :return url列表:
+        """
         lg_web = webdriver.Chrome()
-        #url = "https://www.lagou.com/shanghai/"
         lg_web.get(url)
         lg_web.maximize_window()
         # 输入“测试”点击搜索
@@ -25,6 +27,11 @@ class DataCatch:
         return jobslist
 
     def job_detail(self,urllist):
+        """
+        获取职位的详细数据，并生成列表，每个职位明细的字典作为一个列表项
+        :param urllist:
+        :return joblist:
+        """
         list_job=[]
         for url in urllist:
             job_dict = {}
@@ -46,20 +53,22 @@ class DataCatch:
         return list_job
 
     def save_data(self,joblist):
+        """
+        保存在excel中
+        :param joblist:
+        :return:
+        """
         dt=pd.DataFrame(joblist)
         dt.to_excel("panda_data.xlsx",sheet_name="Sheet1")
         return None
 
 
-
-
 if __name__=="__main__":
     data= DataCatch()
     lagou_detail = data.job_url("https://www.lagou.com/shanghai/")
-    #DataCatch().job_url("https://www.lagou.com/shanghai/")
-    print(lagou_detail)
+    #print(lagou_detail)
     joblist =data.job_detail(lagou_detail)
-    print(joblist)
+    #print(joblist)
     data.save_data(joblist)
 
 

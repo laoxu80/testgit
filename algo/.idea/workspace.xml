@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d304f7d-18c4-4974-9243-10d0ea079a52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/html_ex01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/js_ex01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/ex22.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html_ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/html_ex01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/js_ex01.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/js/js_ex01.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,31 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler_ex/ex02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/js/js_ex01.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testunit/test_demo01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="115">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -94,17 +74,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/jsstu01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="251">
+              <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/html_ex01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex/ex21.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/html_ex01.html">
+        <entry file="file://$PROJECT_DIR$/ex/ex22.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="212">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+              <folding>
+                <element signature="e#70#315#0" />
+                <element signature="e#475#1522#0" />
+                <element signature="e#469#511#2" />
+                <element signature="e#1553#1870#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,9 +136,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -192,6 +196,7 @@
         <option value="$PROJECT_DIR$/crawler_ex/ex02.py" />
         <option value="$PROJECT_DIR$/html/js/js_ex01.js" />
         <option value="$PROJECT_DIR$/html/html_ex01.html" />
+        <option value="$PROJECT_DIR$/ex/ex22.py" />
       </list>
     </option>
   </component>
@@ -206,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,12 +221,13 @@
             <path>
               <item name="algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="ex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,27 +258,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex02">
-    <configuration name="ex01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler_ex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler_ex/ex01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager" selected="Python.ex22">
+    <configuration name="jsstu01.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/algo/html/jsstu01.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="ex02" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -342,7 +328,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex21" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex22" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,7 +341,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex/ex21.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex/ex22.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -366,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex22" />
+        <item itemvalue="JavaScript Debug.jsstu01.html" />
         <item itemvalue="Python.ex02" />
         <item itemvalue="Python.ex03" />
         <item itemvalue="Python.ex14" />
-        <item itemvalue="Python.ex01" />
-        <item itemvalue="Python.ex21" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +433,8 @@
       <workItem from="1591454418875" duration="1060000" />
       <workItem from="1591455817986" duration="36000" />
       <workItem from="1591673514220" duration="10878000" />
-      <workItem from="1591770480658" duration="829000" />
+      <workItem from="1591770480658" duration="884000" />
+      <workItem from="1591851504845" duration="6855000" />
     </task>
     <task id="LOCAL-00001" summary="20200513&#10;add quit">
       <created>1589356742974</created>
@@ -589,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591698559188</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="20200610-js学习">
+      <created>1591774476687</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591774476688</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -625,7 +619,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263136000" />
+    <option name="totallyTimeSpent" value="270046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,7 +634,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -654,7 +648,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35552195" side_tool="true" weight="0.30983606" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32786885" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49924356" weight="0.32786885" />
-      <window_info anchor="bottom" x="21" y="237" width="1322" height="286" id="Run" order="11" sideWeight="0.6444781" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" x="21" y="237" width="1322" height="286" id="Run" order="11" sideWeight="0.6444781" visible="true" weight="0.27868852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -721,7 +715,8 @@
     <MESSAGE value="20200604-爬取网站链接地址" />
     <MESSAGE value="20200609-获取明细内容" />
     <MESSAGE value="20200609-获取明细内容，增加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200609-获取明细内容，增加注释" />
+    <MESSAGE value="20200610-js学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200610-js学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -739,6 +734,7 @@
     <SUITE FILE_PATH="coverage/untitled1$ex04.coverage" NAME="ex04 Coverage Results" MODIFIED="1583752441271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algo$ex19.coverage" NAME="ex19 Coverage Results" MODIFIED="1590046344476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ex" />
     <SUITE FILE_PATH="coverage/untitled1$ex13.coverage" NAME="ex13 Coverage Results" MODIFIED="1585550616173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algo$ex22.coverage" NAME="ex22 Coverage Results" MODIFIED="1591870262145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ex" />
     <SUITE FILE_PATH="coverage/untitled1$sort.coverage" NAME="sort Coverage Results" MODIFIED="1587731758001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$ex16.coverage" NAME="ex16 Coverage Results" MODIFIED="1585656477195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$test_ex00.coverage" NAME="test_ex00 Coverage Results" MODIFIED="1587011010231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -931,13 +927,6 @@
     <entry file="file://$PROJECT_DIR$/crawler_ex/baidu.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/ex21.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex/ex14.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -959,6 +948,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler_ex/ex02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,34 +1009,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler_ex/ex02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/js/js_ex01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/jsstu01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="251">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/html_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="230">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/ex21.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/ex22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <element signature="e#70#315#0" />
+            <element signature="e#475#1522#0" />
+            <element signature="e#469#511#2" />
+            <element signature="e#1553#1870#0" />
+          </folding>
         </state>
       </provider>
     </entry>
